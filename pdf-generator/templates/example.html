@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato de Serviço</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .details {
+            margin-bottom: 20px;
+        }
+        .details p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Contrato de Serviço</h1>
+        </div>
+        <div class="details">
+            <p><strong>Nome do Cliente:</strong> {{.Name}}</p>
+            <p><strong>Data do Contrato:</strong> {{.Date}}</p>
+            <p><strong>Serviços Prestados:</strong></p>
+            <ul>
+                <li>Desenvolvimento de Aplicativos</li>
+                <li>Desenvolvimento de WebSites</li>
+                <li>Desenvolvimento de API</li>
+            </ul>
+        </div>
+        <div class="terms">
+            <p><strong>Termos e Condições:</strong></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at leo in dolor vestibulum tristique. Vivamus auctor, ipsum ac sodales faucibus, arcu lectus consectetur magna, at faucibus nulla dui ut mi.</p>
+            <p>Phasellus rhoncus elit vitae lacus sagittis, eget tincidunt justo eleifend. Mauris in justo ac nibh consequat ultricies. Nulla nec ex nec justo condimentum fermentum.</p>
+        </div>
+    </div>
+</body>
+</html>
